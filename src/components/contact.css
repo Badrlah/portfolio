@@ -1,0 +1,51 @@
+/* src/contact.css */
+
+.text-center {
+  margin-top: 50px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 60px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 30px auto;
+  box-sizing: border-box;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-item a {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: #8b8b8b;
+}
+
+@media (min-width: 768px) {
+  .contact-info {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .contact-item {
+      margin: 0 10px;
+  }
+}

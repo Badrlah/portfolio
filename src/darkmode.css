@@ -1,0 +1,24 @@
+/* App.css */
+.dark-mode-toggle {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dark-mode-toggle button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .dark-mode-toggle .dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .dark-mode-toggle .light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  

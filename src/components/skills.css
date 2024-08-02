@@ -1,0 +1,59 @@
+.skills {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.list-unstyled{
+  margin-top: 30px;
+  margin-left: 180px;
+}
+
+.card {
+  flex: 1;
+  margin: 10px;
+  min-width: 300px;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.competence {
+  margin-bottom: 10px;
+}
+
+.competence h4 {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.competence span {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-unstyled{
+    margin-left: 50px;
+  }
+}
