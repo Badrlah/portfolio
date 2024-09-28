@@ -12,7 +12,7 @@ export default function About() {
             </div>
             <div className="row justify-content-around mt-5">
                 <div className="col-12 col-md-6 d-flex justify-content-center">
-                    <img src="mee.jpg" alt="Profile" style={{ maxWidth: '500px', height: 'auto', border: '1px white solid', borderRadius: '30px' }} />
+                    <img src="pedro.png" alt="Profile" className='pedro' style={{ width: '500px', height: '500px', border: '1px white solid', borderRadius: '30px' }} />
                 </div>
                 <div className="col-12 col-md-6">
                     <div className="d-flex flex-wrap justify-content-around mb-4">

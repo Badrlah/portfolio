@@ -7,7 +7,7 @@
   margin-left: 200px;
 }
 .animated-text{
-  margin-left: 118px;
+  margin-left: 80px;
 }
 .profile-card {
   text-align: center;
@@ -34,11 +34,14 @@
 @media screen and (max-width: 940px) {
   .profile-img  {
       margin-left: 0px;
+      width: 300px;
+      height: 300px;
   }
   .animated-text{
-    margin-left: 39px;
+    margin-left: 20px;
   }
   .container {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 }

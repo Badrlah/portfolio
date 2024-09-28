@@ -16,13 +16,7 @@
   margin-bottom: 20px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 30px;
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .text-center {
       margin-top: 30px;
   }
@@ -31,12 +25,10 @@ img {
       margin-bottom: 20px;
   }
   .about{
-    margin-top: 200px;
+    margin-top: 0px;
   }
-
-  img {
-      width: 100%;
-      max-width: none;
-      border-radius: 20px;
+  .pedro {
+      width: 100px;
+      height: 100px;
   }
 }

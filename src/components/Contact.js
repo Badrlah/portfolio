@@ -30,7 +30,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-item">
                     <FontAwesomeIcon icon={faLinkedin} className="icon" />
-                    <a href="https://www.linkedin.com/in/badreddine-lahlaissi-9157952a3">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/badreddine-lahlaissi-4235b032a/" target="_blank">LinkedIn</a>
                 </div> 
             </div>
            <p className='text-center'>Copyright © 2024 BadrEddine Lahlaissi. All Rights Reserved.</p>
