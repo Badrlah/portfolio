@@ -3,3 +3,119 @@
         margin-top: 0px;
     }
   }
+  /* Responsives srtyles
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  /* Small phone (portrait) */
+  /* @media (max-width: 320px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 0 10px;
+    }
+  } */
+  
+  /* Small phone (landscape) */
+  /* @media (max-width: 480px) {
+    .container {
+      padding: 0 12px;
+    }
+  } */
+  
+  /* Phone (portrait) */
+  /* @media (max-width: 360px) {
+    body {
+      font-size: 15px;
+    }
+  } */
+  
+  /* Phone (landscape) */
+  /* @media (max-width: 640px) {
+    .container {
+      max-width: 600px;
+    }
+  }
+   */
+  /* Large phone (portrait) */
+  /* @media (max-width: 414px) {
+    body {
+      font-size: 16px;
+    }
+  } */
+  
+  /* Large phone (landscape) */
+  /* @media (max-width: 736px) {
+    .container {
+      max-width: 700px;
+    }
+  } */
+  
+  /* Small tablet (portrait) */
+  /* @media (max-width: 600px) {
+    body {
+      font-size: 17px;
+    }
+  } */
+  
+  /* Small tablet (landscape) and Tablet (landscape) */
+  /* @media (max-width: 1024px) {
+    .container {
+      max-width: 960px;
+    }
+  } */
+  
+  /* Tablet (portrait) */
+  /* @media (max-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  /* Desktops */
+  /* @media (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+    .container {
+      max-width: 960px;
+    }
+  } */ 
+  
+  /* Medium desktop screens */
+  /* @media (min-width: 1280px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+  
+  /* Large desktop screens */
+  /* @media (min-width: 1366px) {
+    .container {
+      max-width: 1300px;
+    }
+  }  */
+  
+  /* Extra large desktop screens */
+  /* @media (min-width: 1920px) {
+    body {
+      font-size: 20px;
+    }
+    .container {
+      max-width: 1800px;
+    }
+  }  */

@@ -33,18 +33,19 @@ function Home() {
         <div className="col-12 col-md-6 profile-card text-center text-md-center">
           <p>Hello, I'm</p>
           <motion.div
-             className="animated-text"
-             variants={containerVariants}
-             initial="hidden"
-             animate="visible"
-            style={{ display: 'flex', fontSize: '2.8rem' ,fontWeight:'bold'  , whiteSpace:'nowrap'}}
-          >
-            {letters.map((letter, index) => (
-                <motion.span key={index} variants={childVariants}>
-                        {letter}
-                </motion.span>
-             ))}
-          </motion.div>
+  className="animated-text"
+  variants={containerVariants}
+  initial="hidden"
+  animate="visible"
+  style={{ display: 'flex', fontSize: '2.8rem', fontWeight: 'bold', whiteSpace: 'nowrap' }}
+>
+  {letters.map((letter, index) => (
+    <motion.span key={index} variants={childVariants}>
+      {letter}
+    </motion.span>
+  ))}
+</motion.div>
+
           <h2>Fullstack Developer</h2>
           <div>
             <a className="btn btn-outline-dark p-2" href="/Lahlaissi_Badreddine.pdf" target="_blank" 

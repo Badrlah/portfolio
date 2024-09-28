@@ -6,8 +6,12 @@
   border: 1px solid white;
   margin-left: 200px;
 }
-.animated-text{
-  margin-left: 80px;
+.animated-text {
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-left: 100px;
 }
 .profile-card {
   text-align: center;
@@ -37,9 +41,18 @@
       width: 300px;
       height: 300px;
   }
-  .animated-text{
+  .animated-text {
     margin-left: 20px;
-  }
+      flex-wrap: wrap; /* Allow the text to wrap */
+      justify-content: center; /* Center the text */
+      white-space: normal; /* Allow wrapping */
+      text-align: center; /* Center text on smaller screens */
+      line-height: 1.2; /* Adjust line height to avoid overlapping */
+    }
+    .animated-text span {
+      display: inline-block; /* Make each letter inline-block */
+    }
+  
   .container {
     margin-top: 0px;
     margin-bottom: 0px;
